@@ -9,5 +9,9 @@ class Hello
     char test = 'a';
     bool trueOrFalse = true;
       Console.WriteLine(hello);
+      Console.ReadLine();
+
+
+
   }
 }
