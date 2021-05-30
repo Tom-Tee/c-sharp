@@ -3,6 +3,8 @@ class Hello
 {
   static void Main(string[] args)
   {
+
+// VARIABLES
     string hello = "Hello World!!!";
     double newWord = 00.12;
     int integer = 12;
@@ -11,6 +13,8 @@ class Hello
       Console.WriteLine(hello);
       Console.ReadLine();
 
+
+// CONDITIONALS
       if (hello.Length == 1) {
         Console.WriteLine("YES!");
       }
