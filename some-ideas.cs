@@ -11,6 +11,13 @@ class Hello
       Console.WriteLine(hello);
       Console.ReadLine();
 
+      if (hello.Length == 1) {
+        Console.WriteLine("YES!");
+      }
+      else
+      {
+        Console.WriteLine("NO!");
+      }
 
 
   }
