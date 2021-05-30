@@ -19,6 +19,16 @@ class Hello
         Console.WriteLine("NO!");
       }
 
+      if (integer > 10) {
+        Console.WriteLine("Integer is bigger than 10");
+      }
+      else if (integer == 12) {
+        Console.WriteLine("Integer is exactly 12!");
+      }
+      else
+      {
+        Console.WriteLine("Neither!!");
+      }
 
   }
 }
