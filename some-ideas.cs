@@ -72,7 +72,7 @@ class Hello
 
 
 // METHODS WITH MULTIPLE PERAMETERS
-    static void Main(string[] args)
+    static void someTest()
     {
       VisitPlanets(numberOfPlanets : 2, name : "Thomas");
     }
@@ -87,5 +87,10 @@ class Hello
       Console.WriteLine($"You visited {numberOfPlanets} new planets...");
       Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
     }
-  }
+
+    static void createArray()
+    {
+      string[] summerStrut;
+      summerStrut = new string[] {"Juice", "Missing U", "Raspberry Boat", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles"};
+    }
 }
