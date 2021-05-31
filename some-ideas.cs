@@ -68,6 +68,8 @@ class Hello
         string message = (pepperLength >= 3.5) ? "ready!" : "wait a little longer";
         Console.WriteLine(message);
 
+        CreateForLoop();
+
   }
 
 
@@ -88,9 +90,17 @@ class Hello
       Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
     }
 
-    static void createArray()
+    static void CreateArray()
     {
       string[] summerStrut;
       summerStrut = new string[] {"Juice", "Missing U", "Raspberry Boat", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles"};
+    }
+
+    static void CreateForLoop()
+    {
+      for (int i = 1; i < 17; i++)
+      {
+        Console.WriteLine($"test {i}");
+      }
     }
 }
